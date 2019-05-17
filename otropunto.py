@@ -2,7 +2,7 @@
 def max2 (a,b):
     if a>b:
         return a
-    else a>b:
+    elif a>b:
         return b
 
 ## maximo de tres numeros
@@ -13,7 +13,7 @@ def max3 (a,b,c):
         return b
     elif c>a and c>b:
         return c
-    else a==b==c:
+    elif a==b==c:
         return "son iguales"
 ## largo de una lista
 
