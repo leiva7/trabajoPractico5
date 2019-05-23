@@ -2,7 +2,7 @@
 def max2 (a,b):
     if a>b:
         return a
-    elif a>b:
+    elif a<b:
         return b
 
 ## maximo de tres numeros
@@ -18,11 +18,11 @@ def max3 (a,b,c):
 ## largo de una lista
 
 
-def largo ( lista):
-resultado=0
+def largo (lista):
+    resultado=0
     for elementos in lista:
-        resultado= resultado + 1
-return resultado
+        resultado += 1
+    return resultado
 
         
 
