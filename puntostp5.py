@@ -18,3 +18,15 @@ def multiplicoelementos(lista):
     for e in lista:
         resultado = resultado*e
     return resultado
+	
+def palindromo(palabra):
+    nuevapalabra = ""
+    i= len(palabra)
+    while i >0:
+        nuevapalabra = nuevapalabra + palabra[i-1]
+        i -= 1
+        print (nuevapalabra)
+    if palabra == nuevapalabra:
+        return "Si es palindromo"
+    else:
+        return "No es palindromo"

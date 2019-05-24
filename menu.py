@@ -49,7 +49,9 @@ while(True):
     elif op==7:
         print ("opcion 7")
     elif op==8:
-        print ("opcion 8")
+        print ("ingrese una palabra entre comillas dobles")
+        palabra=input()
+        print(puntostp5.palindromo(palabra))
     elif op==9:
         exit()
 
