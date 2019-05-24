@@ -25,7 +25,6 @@ def palindromo(palabra):
     while i >0:
         nuevapalabra = nuevapalabra + palabra[i-1]
         i -= 1
-        print (nuevapalabra)
     if palabra == nuevapalabra:
         return "Si es palindromo"
     else:
