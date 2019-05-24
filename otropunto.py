@@ -24,6 +24,16 @@ def largo (lista):
         resultado += 1
     return resultado
 
-        
+def elemcomun (lista1,lista2):
+    comparacion=[]
+    for elem in lista1:
+        if elem in lista2:
+            comparacion.append(elem)
+    if len(comparacion) > 0:
+        print "Ambas listas contienen elementos en comun"
+    else: 
+        print "No existe ningun elemento igual en las listas"
+
+
 
 

@@ -47,7 +47,13 @@ while(True):
         lista=input()
         print(puntostp5.multiplicoelementos(lista))
     elif op==7:
-        print ("opcion 7")
+
+        print ("coloque una lista")
+        lista1=input()
+        print ("coloque una lista")
+        lista2=input()
+
+        print (otropunto.elemcomun(lista1,lista2))
     elif op==8:
         print ("ingrese una palabra entre comillas dobles")
         palabra=input()
