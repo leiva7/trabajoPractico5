@@ -1,0 +1,22 @@
+Parte 1
+
+paula@paula-X455LA:~$ sudo apt install python3-pip
+paula@paula-X455LA:~$ sudo pip3 install virtualenv
+paula@paula-X455LA:~$ mkdir virtualenvs/
+paula@paula-X455LA:~$ virtualenv --python=/usr/bin/python2.7 virtualenvs/python2/
+paula@paula-X455LA:~$ source virtualenvs/python2/bin/activate
+(python2) paula@paula-X455LA:~$ python --version
+(python2) paula@paula-X455LA:~$ cd
+(python2) paula@paula-X455LA:~$ cd Repositorio/
+(python2) paula@paula-X455LA:~/Repositorio$ python menu.py
+(python2) paula@paula-X455LA:~/Repositorio$ deactivate
+
+Parte 2
+paula@paula-X455LA:~$ cd
+paula@paula-X455LA:~$ virtualenv --python=/usr/bin/python3.6 virtualenvs/python3/
+paula@paula-X455LA:~$ source virtualenvs/python3/bin/activate
+(python3) paula@paula-X455LA:~$ cd Repositorio/
+(python3) paula@paula-X455LA:~/Repositorio$ jupyter notebook AnotadorTP7.ipynb
+ctrl+c
+(python3) paula@paula-X455LA:~/Repositorio$ deactivate
+
